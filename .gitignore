@@ -1,0 +1,8 @@
+# zsh
+files/zsh/.zcompcache/
+files/zsh/.zcompdump
+files/zsh/.zsh_history
+files/zsh/.zsh_sessions
+
+# macOS
+.DS_Store
