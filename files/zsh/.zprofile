@@ -66,5 +66,5 @@ fi
 # Init
 #
 
-figlet -c Hello, World
 cmatrix -as
+neofetch
