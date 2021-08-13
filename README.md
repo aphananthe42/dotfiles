@@ -9,7 +9,7 @@ This repository is a Aphananthe's dotfiles which includes some shellscripts.
 1. Download
 
 ```bash
-https://github.com/aphananthe42/dotfiles.git
+$ git clone https://github.com/aphananthe42/dotfiles.git
 ```
 
 2. Execute setup script
