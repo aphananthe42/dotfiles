@@ -6,11 +6,11 @@
 [mergetool "sourcetree"]
 	cmd = /Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
 	trustExitCode = true
-[include]
-    	path = ~/.gitconfig.local
 [commit]
 	template = /Users/Aphananthe/.stCommitMsg
 [init]
 	defaultBranch = main
 [color]
 	ui = auto
+[include]
+    	path = ~/.gitconfig.local
