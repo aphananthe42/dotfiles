@@ -6,9 +6,8 @@
 [mergetool "sourcetree"]
 	cmd = /Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
 	trustExitCode = true
-[user]
-	name = Aphananthe
-	email = japaneseindian0246@gmail.com
+[include]
+    	path = ~/.gitconfig.local
 [commit]
 	template = /Users/Aphananthe/.stCommitMsg
 [init]
