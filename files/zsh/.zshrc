@@ -20,13 +20,13 @@ fi
 # Customize to your needs...
 
 # Paths
-export PATH=$HOME/.nodebrew/current/bin:$PATH
 export PATH=$HOME/dotfiles/scripts:$PATH
+export PATH=$HOME/.nodebrew/current/bin:$PATH
+export PATH=$HOME/usr/local/opt/python@3.9/libexec/bin/python
+export PATH=$HOME/usr/local/opt/python@3.9/libexec/bin/pip
 
 # Alias
 alias relogin='exec $SHELL -l'
-alias python='/usr/local/bin/python3'
-alias pip='/usr/local/bin/pip3'
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
