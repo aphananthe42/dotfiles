@@ -22,8 +22,7 @@ fi
 # Paths
 export PATH=$HOME/dotfiles/scripts:$PATH
 export PATH=$HOME/.nodebrew/current/bin:$PATH
-export PATH=$HOME/usr/local/opt/python@3.9/libexec/bin/python
-export PATH=$HOME/usr/local/opt/python@3.9/libexec/bin/pip
+export PATH=/usr/local/opt/python@3.9/libexec/bin:$PATH
 
 # Alias
 alias relogin='exec $SHELL -l'
