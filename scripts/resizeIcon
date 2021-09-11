@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 fileName=`basename ${1} .png`
 name="${fileName}.AppIcon"
