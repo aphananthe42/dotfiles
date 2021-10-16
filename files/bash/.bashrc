@@ -1,6 +1,3 @@
-# blesh
-[[ $- == *i* ]] && source ~/.local/share/blesh/ble.sh --noattach
-
 # Paths
 
 export LSCOLORS=Cxfxcxdxbxegedabagacad
@@ -25,6 +22,3 @@ alias gp='git push'
 alias gst='git status'
 
 alias q='exit'
-
-# blesh
-[[ ${BLE_VERSION-} ]] && ble-attach
