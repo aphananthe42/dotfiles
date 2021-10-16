@@ -7,10 +7,9 @@ for git_file in .* ; do
   ln -s ${PWD}/${git_file} ${HOME}
 done
 
-cd ${HOME}/dotfiles/files/zsh
-ln -s ${PWD}/prezto ${HOME}
-ln -s ${PWD}/.p10k.zsh ${HOME}
-for zsh_file in .* ; do
-  ln -s ${PWD}/${zsh_file} ${HOME}
+cd ${HOME}/dotfiles/files/bash
+ln -s ${PWD}/powerline-shell ${HOME}
+for bash_file in .* ; do
+  ln -s ${PWD}/${bash_file} ${HOME}
 done
 
