@@ -1,6 +1,6 @@
 # Paths
 
-export PATH=$HOME/dotfiles/scripts:$PATH
+export PATH=$HOME/Sequoia/scripts:$PATH
 export PATH=$HOME/.nodebrew/current/bin:$PATH
 export PATH=/usr/local/opt/python@3.9/libexec/bin:$PATH
 

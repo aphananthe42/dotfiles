@@ -2,12 +2,12 @@
 
 set -eu
 
-cd ${HOME}/dotfiles/files/git
+cd ${HOME}/Sequoia/files/git
 for git_file in .* ; do
   ln -s ${PWD}/${git_file} ${HOME}
 done
 
-cd ${HOME}/dotfiles/files/bash
+cd ${HOME}/Sequoia/files/bash
 ln -s ${PWD}/powerline-shell ${HOME}
 for bash_file in .* ; do
   ln -s ${PWD}/${bash_file} ${HOME}
