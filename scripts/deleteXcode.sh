@@ -12,6 +12,6 @@ fi
 [ -e /Library/Preferences/com.apple.dt.Xcode.plist ] && rm /Library/Preferences/com.apple.dt.Xcode.plist
 [ -e  ~/Library/Preferences/com.apple.dt.Xcode.plist ] && rm ~/Library/Preferences/com.apple.dt.Xcode.plist
 [ -e ~/Library/Caches/com.apple.dt.Xcode ] && rm ~/Library/Caches/com.apple.dt.Xcode
-[ -e  ~/Library/Application Support/Xcode ] && rm -r ~/Library/Application Support/Xcode
-[ -e ~/Library/Developer/Xcode ] && rm -r ~/Library/Developer/Xcode
-[ -e ~/Library/Developer/CoreSimulator ] && rm -r ~/Library/Developer/CoreSimulator
+[ -d  ~/Library/Application Support/Xcode ] && rm -r ~/Library/Application Support/Xcode
+[ -d ~/Library/Developer/Xcode ] && rm -r ~/Library/Developer/Xcode
+[ -d ~/Library/Developer/CoreSimulator ] && rm -r ~/Library/Developer/CoreSimulator
