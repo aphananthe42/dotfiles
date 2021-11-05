@@ -8,10 +8,10 @@ if [ ! "${yn}" = 'y' ]; then
   exit 1
 fi
 
-rm -r /Applications/Xcode.app
-rm /Library/Preferences/com.apple.dt.Xcode.plist
-rm ~/Library/Preferences/com.apple.dt.Xcode.plist
-rm ~/Library/Caches/com.apple.dt.Xcode
-rm -r ~/Library/Application Support/Xcode
-rm -r ~/Library/Developer/Xcode
-rm -r ~/Library/Developer/CoreSimulator
+[ -d /Applications/Xcode.app ] && rm -r /Applications/Xcode.app
+[ -e /Library/Preferences/com.apple.dt.Xcode.plist ] && rm /Library/Preferences/com.apple.dt.Xcode.plist
+[ -e  ~/Library/Preferences/com.apple.dt.Xcode.plist ] && rm ~/Library/Preferences/com.apple.dt.Xcode.plist
+[ -e ~/Library/Caches/com.apple.dt.Xcode ] && rm ~/Library/Caches/com.apple.dt.Xcode
+[ -e  ~/Library/Application Support/Xcode ] && rm -r ~/Library/Application Support/Xcode
+[ -e ~/Library/Developer/Xcode ] && rm -r ~/Library/Developer/Xcode
+[ -e ~/Library/Developer/CoreSimulator ] && rm -r ~/Library/Developer/CoreSimulator
