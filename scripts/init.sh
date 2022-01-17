@@ -8,7 +8,6 @@ for git_file in .* ; do
 done
 
 cd ${HOME}/Sequoia/files/bash
-ln -s ${PWD}/powerline-shell ${HOME}
 for bash_file in .* ; do
   ln -s ${PWD}/${bash_file} ${HOME}
 done
