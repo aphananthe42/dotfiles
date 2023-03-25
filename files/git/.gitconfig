@@ -6,6 +6,9 @@
 [mergetool "sourcetree"]
 	cmd = /Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
 	trustExitCode = true
+[url "github:"]
+    	InsteadOf = https://github.com/
+    	InsteadOf = git@github.com:
 [commit]
 	template = /Users/Aphananthe/.stCommitMsg
 [init]
