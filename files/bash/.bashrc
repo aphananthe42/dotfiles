@@ -4,7 +4,6 @@ export LSCOLORS=Cxfxcxdxbxegedabagacad
 export HISTCONTROL=ignoreboth
 export HISTSIZE=5000
 export HISTFILESIZE=5000
-export BASH_SILENCE_DEPRECATION_WARNING=1
 
 # Alias
 
