@@ -9,6 +9,9 @@ This repository is a Aphananthe's dotfiles which includes some shellscripts.
 0. Prepare
 
 ```bash
+# install bash from Homebrew because system default bash is too old
+$ brew install bash
+
 # install neofetch
 $ brew install neofetch
 
