@@ -2,7 +2,7 @@
 
 export PATH=$HOME/dotfiles/scripts:$PATH
 export PATH=/usr/local/opt/node/bin:$PATH
-export PATH=/usr/local/opt/python@3.11/libexec/bin:$PATH
+export PATH=/usr/local/opt/python@3.12/libexec/bin:$PATH
 
 # Commands
 
