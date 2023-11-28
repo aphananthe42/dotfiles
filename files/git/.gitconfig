@@ -1,5 +1,5 @@
 [core]
-	excludesfile = $HOME/.gitignore_global
+	excludesfile = ~/.gitignore_global
 	editor = code --wait
 [diff]
 	tool = vscode
@@ -13,13 +13,13 @@
     	InsteadOf = https://github.com/
     	InsteadOf = git@github.com:
 [commit]
-	template = $HOME/.stCommitMsg
+	template = ~/.stCommitMsg
 [init]
 	defaultBranch = main
 [color]
 	ui = auto
 [include]
-    	path = $HOME/.gitconfig.local
+    	path = ~/.gitconfig.local
 [filter "lfs"]
 	clean = git-lfs clean -- %f
 	smudge = git-lfs smudge -- %f
