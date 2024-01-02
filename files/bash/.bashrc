@@ -24,4 +24,7 @@ alias gc='git commit'
 alias gp='git push'
 alias gst='git status'
 
+alias dc='docker-compose'
+alias dcenter='docker-compose exec app bash'
+
 alias q='exit'
