@@ -10,7 +10,7 @@ export NVM_DIR="$HOME/.nvm"
 # Commands
 
 if [ -f ~/.bashrc ]; then
-        . ~/.bashrc
+    . ~/.bashrc
 fi
 
 function _update_ps1() {
