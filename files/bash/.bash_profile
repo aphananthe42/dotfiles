@@ -5,6 +5,7 @@ export PATH=/opt/homebrew/sbin:$PATH
 export PATH=/opt/homebrew/opt/python@3.12/libexec/bin:$PATH
 export PATH=$HOME/dotfiles/scripts:$PATH
 export BASH_SILENCE_DEPRECATION_WARNING=1
+export NVM_DIR="$HOME/.nvm"
 
 # Commands
 
@@ -19,5 +20,8 @@ function _update_ps1() {
 if [[ $TERM != linux && ! $PROMPT_COMMAND =~ _update_ps1 ]]; then
     PROMPT_COMMAND="_update_ps1; $PROMPT_COMMAND"
 fi
+
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"
 
 neofetch
