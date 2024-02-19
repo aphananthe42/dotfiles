@@ -9,9 +9,8 @@
     	tool = vscode
 [mergetool "vscode"]
     	cmd = code --wait $MERGED
-[url "github:"]
-    	InsteadOf = https://github.com/
-    	InsteadOf = git@github.com:
+[url "git@github.com:"]
+    	insteadOf = https://github.com/
 [commit]
 	template = ~/.stCommitMsg
 [init]
