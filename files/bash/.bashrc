@@ -5,6 +5,7 @@ export HISTCONTROL=ignoreboth
 export HISTSIZE=5000
 export HISTFILESIZE=5000
 
+
 # Alias
 
 alias ls='ls -CFG'
@@ -28,3 +29,19 @@ alias dc='docker compose'
 alias dcenter='docker compose exec app bash'
 
 alias q='exit'
+
+
+# Scripts
+
+function _update_ps1() {
+    PS1="$(powerline-shell $?)\n$ "
+}
+
+if [[ $TERM != linux && ! $PROMPT_COMMAND =~ _update_ps1 ]]; then
+    PROMPT_COMMAND="_update_ps1; $PROMPT_COMMAND"
+fi
+
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"
+
+neofetch

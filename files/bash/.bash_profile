@@ -9,21 +9,9 @@ export NVM_DIR="$HOME/.nvm"
 export DENO_INSTALL="$HOME/.deno"
 export PATH="$DENO_INSTALL/bin:$PATH"
 
-# Commands
+
+# Scripts
 
 if [ -f ~/.bashrc ]; then
     . ~/.bashrc
 fi
-
-function _update_ps1() {
-    PS1="$(powerline-shell $?)\n$ "
-}
-
-if [[ $TERM != linux && ! $PROMPT_COMMAND =~ _update_ps1 ]]; then
-    PROMPT_COMMAND="_update_ps1; $PROMPT_COMMAND"
-fi
-
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"
-
-neofetch
