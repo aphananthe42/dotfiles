@@ -2,6 +2,7 @@
 
 export PATH=/opt/homebrew/bin:$PATH
 export PATH=/opt/homebrew/sbin:$PATH
+export PATH=$HOME/.local/bin:$PATH
 export PATH=$HOME/dotfiles/scripts:$PATH
 export NVM_DIR="$HOME/.nvm"
 export DENO_INSTALL="$HOME/.deno"
