@@ -29,5 +29,3 @@
 [user]
 	signingkey = ~/.ssh/signing-key.pub
 	name = aphananthe42
-
-
