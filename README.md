@@ -2,7 +2,7 @@
 
 ## Overview
 
-This repository is a Aphananthe's dotfiles which includes some shellscripts.
+This repository is a aphananthe's dotfiles which includes some shellscripts.
 
 ## Usage
 
