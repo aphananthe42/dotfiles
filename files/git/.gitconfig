@@ -13,6 +13,7 @@
    	insteadOf = https://github.com/
 [commit]
 	template = ~/.stCommitMsg
+	gpgSign = true
 [init]
 	defaultBranch = main
 [color]
