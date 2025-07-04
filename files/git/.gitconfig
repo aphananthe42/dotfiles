@@ -1,27 +1,27 @@
 [core]
-    excludesfile = ~/.gitignore_global
-    editor = code --wait
+	excludesfile = ~/.gitignore_global
+	editor = code --wait
 [diff]
-    tool = vscode
+	tool = vscode
 [difftool "vscode"]
-    cmd = code --wait --diff $LOCAL $REMOTE
+	cmd = code --wait --diff $LOCAL $REMOTE
 [merge]
-    tool = vscode
+	tool = vscode
 [mergetool "vscode"]
-    cmd = code --wait $MERGED
+	cmd = code --wait $MERGED
 [url "git@github.com:"]
-    insteadOf = https://github.com/
+	insteadOf = https://github.com/
 [commit]
-    template = ~/.stCommitMsg
-    gpgSign = true
+	template = ~/.stCommitMsg
+	gpgSign = true
 [init]
-    defaultBranch = main
+	defaultBranch = main
 [color]
-    ui = auto
+	ui = auto
 [include]
-    path = ~/.gitconfig.local
+	path = ~/.gitconfig.local
 [gpg]
-    format = ssh
+	format = ssh
 [user]
-    signingkey = ~/.ssh/signing-key.pub
-    name = aphananthe42
+	signingkey = ~/.ssh/signing-key.pub
+	name = aphananthe42
