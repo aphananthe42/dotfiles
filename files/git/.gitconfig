@@ -1,14 +1,20 @@
 [core]
-	excludesfile = ~/.gitignore_global
+	excludesfile = /Users/aphananthe/.gitignore_global
 	editor = code --wait
 [diff]
 	tool = vscode
 [difftool "vscode"]
     	cmd = code --wait --diff $LOCAL $REMOTE
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
 [merge]
     	tool = vscode
 [mergetool "vscode"]
     	cmd = code --wait $MERGED
+[mergetool "sourcetree"]
+	cmd = /Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
 [url "git@github.com:"]
    	insteadOf = https://github.com/
 [commit]
@@ -24,3 +30,5 @@
 	format = ssh
 [user]
 	signingkey = ~/.ssh/signing-key.pub
+	name = aphananthe42
+	email = 
